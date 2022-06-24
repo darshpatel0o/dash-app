@@ -1,27 +1,14 @@
 # dash-120million-taxi-app
-Explore 120 million taxi trips in real time with Dash and Vaex
 
 Available at https://dash.vaex.io/
 
-![img](cover.png)
-
-# Running this app
-
-Clone the repo
-```
-$ git clone https://github.com/vaexio/dash-120million-taxi-app
-```
-
-Run in debug mode:
 ```
 $ python app.py
 ```
 
-Make sure the data is downloaded from s3:
 ```
 $ python getdata.py
 ```
-(You can ignore the warning `WARNING:ThreadPoolExecutor-1_31:urllib3.connectionpool:Connection pool is full, discarding connection: vaex.s3.amazonaws.com`)
 
 
 Run in production mode (make sure the data is downloaded if you stream from s3):
